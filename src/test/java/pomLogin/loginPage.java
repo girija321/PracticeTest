@@ -3,6 +3,13 @@ package pomLogin;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+/**
+ * 
+ * @author Girija
+ * 
+ * Login page utility
+ *
+ */
 public class loginPage {
 	@FindBy(name="username") public WebElement textusername; 
 	@FindBy(name="password") public WebElement textpassword; 
