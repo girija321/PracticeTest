@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-15T18:19:38 PDT" name="Default suite" finished-at="2023-07-15T18:20:09 PDT" duration-ms="31424">
+    <groups>
+      <group name="regression">
+        <method signature="OrangeHRM.editUser()[pri:0, instance:testNGpractice.OrangeHRM@73e9cf30]" name="editUser" class="testNGpractice.OrangeHRM"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="OrangeHRM.addUser()[pri:1, instance:testNGpractice.OrangeHRM@73e9cf30]" name="addUser" class="testNGpractice.OrangeHRM"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-07-15T18:19:38 PDT" name="Default test" finished-at="2023-07-15T18:20:09 PDT" duration-ms="31424">
+      <class name="testNGpractice.OrangeHRM">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testNGpractice.OrangeHRM@73e9cf30]" started-at="2023-07-15T18:19:38 PDT" name="launchApp" finished-at="2023-07-15T18:19:48 PDT" duration-ms="9851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:testNGpractice.OrangeHRM@73e9cf30]" started-at="2023-07-15T18:19:48 PDT" name="loginApp" finished-at="2023-07-15T18:19:52 PDT" duration-ms="4180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="delete()[pri:0, instance:testNGpractice.OrangeHRM@73e9cf30]" started-at="2023-07-15T18:19:52 PDT" name="delete" finished-at="2023-07-15T18:19:53 PDT" duration-ms="534" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at testNGpractice.OrangeHRM.delete(OrangeHRM.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testNGpractice.OrangeHRM@73e9cf30]" started-at="2023-07-15T18:19:53 PDT" name="logout" finished-at="2023-07-15T18:19:54 PDT" duration-ms="1341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:testNGpractice.OrangeHRM@73e9cf30]" started-at="2023-07-15T18:19:54 PDT" name="loginApp" finished-at="2023-07-15T18:19:58 PDT" duration-ms="3759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="editUser()[pri:0, instance:testNGpractice.OrangeHRM@73e9cf30]" started-at="2023-07-15T18:19:58 PDT" name="editUser" finished-at="2023-07-15T18:19:58 PDT" duration-ms="508" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at testNGpractice.OrangeHRM.editUser(OrangeHRM.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testNGpractice.OrangeHRM@73e9cf30]" started-at="2023-07-15T18:19:58 PDT" name="logout" finished-at="2023-07-15T18:20:00 PDT" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:testNGpractice.OrangeHRM@73e9cf30]" started-at="2023-07-15T18:20:00 PDT" name="loginApp" finished-at="2023-07-15T18:20:04 PDT" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="addUser()[pri:1, instance:testNGpractice.OrangeHRM@73e9cf30]" started-at="2023-07-15T18:20:04 PDT" name="addUser" finished-at="2023-07-15T18:20:07 PDT" duration-ms="3398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testNGpractice.OrangeHRM@73e9cf30]" started-at="2023-07-15T18:20:07 PDT" name="logout" finished-at="2023-07-15T18:20:09 PDT" duration-ms="1472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testNGpractice.OrangeHRM@73e9cf30]" started-at="2023-07-15T18:20:09 PDT" name="close" finished-at="2023-07-15T18:20:09 PDT" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testNGpractice.OrangeHRM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

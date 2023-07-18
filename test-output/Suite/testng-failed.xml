@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="betch14testNg.OrangeHRM">
+        <methods>
+          <include name="logout"/>
+          <include name="delete"/>
+          <include name="loginApp"/>
+          <include name="editUser"/>
+          <include name="launchApp"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- betch14testNg.OrangeHRM -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
